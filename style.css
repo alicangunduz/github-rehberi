@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  color: #6441a5;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.checklist {
+  margin-top: 20px;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 10px; 
+}
+
+input[type="checkbox"] {
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+label {
+  font-size: 24px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.details-button {
+  background-color: #6441a5;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.details-button:hover {
+  background-color: #522b89;
+}
+
+.details {
+  display: none;
+  position: absolute; 
+  margin-top: 15px; 
+  top: 100%; 
+  left: 0; 
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.details p {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .details-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .details {
+    padding: 0.5rem;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+}
+.footer {
+  color: #522b89;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #522b89;
+  text-transform: uppercase;
+}
