@@ -30,7 +30,7 @@ h1 {
   align-items: center;
   margin-bottom: 10px;
   border-bottom: 0.5px solid #ccc;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 input[type="checkbox"] {
@@ -63,10 +63,10 @@ label {
 
 .details {
   display: none;
-  position: absolute; 
-  margin-top: 15px; 
-  top: 100%; 
-  left: 0; 
+  position: absolute;
+  margin-top: 15px;
+  top: 100%;
+  left: 0;
   padding: 1rem;
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -111,8 +111,9 @@ label {
     margin-left: 0;
     width: 100%;
   }
-  
+
 }
+
 .footer {
   color: #522b89;
   font-size: 20px;
@@ -122,6 +123,7 @@ label {
   left: 0;
   width: 100%;
 }
+
 .footer a {
   text-decoration: none;
   font-family: Arial, sans-serif;
